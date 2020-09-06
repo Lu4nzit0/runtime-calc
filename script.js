@@ -35,6 +35,6 @@ function exec() {
 document.addEventListener("keyup", (event) => {
     exec()
 })
-document.addEventListener("change", (event) => {
+options.addEventListener("change", (event) => {
     exec()
 })
